@@ -7,6 +7,7 @@
     "clean": "rimraf ./cache-ovm ./cache ./artifacts-ovm ./artifacts ./deployments",
     "commit": "git-cz",
     "compile": "npx hardhat compile",
+    "compile:network": "npx hardhat compile --network",
     "coverage": "hardhat coverage --solcoverjs ./.solcover.js --temp artifacts --testfiles \"./test/**/*.ts\"",
     "deploy": "npx hardhat run scripts/deploy.ts",
     "deploy:network": "npx hardhat run scripts/deploy.ts --network",
