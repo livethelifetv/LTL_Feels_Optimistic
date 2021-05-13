@@ -42,7 +42,7 @@ Compile the smart contracts with Hardhat:
 $ yarn compile
 ```
 
-Compile against optimism:
+Compile against Optimism:
 
 ```sh
 $ yarn compile:network optimism
